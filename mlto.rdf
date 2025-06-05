@@ -2987,10 +2987,50 @@
     
 
 
+    <!-- http://mlto.com#ModelFault_Bias -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelFault_Bias">
+        <rdf:type rdf:resource="http://mlto.com#ModelFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelFault_Overfitting -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelFault_Overfitting">
+        <rdf:type rdf:resource="http://mlto.com#ModelFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelFault_Underfitting -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelFault_Underfitting">
+        <rdf:type rdf:resource="http://mlto.com#ModelFault"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#ModelPropertiesFault -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#ModelPropertiesFault">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelPropertiesFault_IncorrectInitialization -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelPropertiesFault_IncorrectInitialization">
+        <rdf:type rdf:resource="http://mlto.com#ModelPropertiesFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelPropertiesFault_UnstableGradients -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelPropertiesFault_UnstableGradients">
+        <rdf:type rdf:resource="http://mlto.com#ModelPropertiesFault"/>
     </owl:NamedIndividual>
     
 
@@ -3003,10 +3043,42 @@
     
 
 
+    <!-- http://mlto.com#ModelTypeWrongSelection_CNNForTabularData -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelTypeWrongSelection_CNNForTabularData">
+        <rdf:type rdf:resource="http://mlto.com#ModelTypeWrongSelection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelTypeWrongSelection_LinearModelForNonlinearData -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelTypeWrongSelection_LinearModelForNonlinearData">
+        <rdf:type rdf:resource="http://mlto.com#ModelTypeWrongSelection"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#ModelUpdate -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#ModelUpdate">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelUpdate_ArchitectureChange -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelUpdate_ArchitectureChange">
+        <rdf:type rdf:resource="http://mlto.com#ModelUpdate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelUpdate_RetrainWithNewData -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelUpdate_RetrainWithNewData">
+        <rdf:type rdf:resource="http://mlto.com#ModelUpdate"/>
     </owl:NamedIndividual>
     
 
@@ -3043,10 +3115,42 @@
     
 
 
+    <!-- http://mlto.com#MultipleInitializationsOfCNN_InconsistentTraining -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MultipleInitializationsOfCNN_InconsistentTraining">
+        <rdf:type rdf:resource="http://mlto.com#MultipleInitializationsOfCNN"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MultipleInitializationsOfCNN_WeightResetIssue -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MultipleInitializationsOfCNN_WeightResetIssue">
+        <rdf:type rdf:resource="http://mlto.com#MultipleInitializationsOfCNN"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#NotEnoughTrainingData -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#NotEnoughTrainingData">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#NotEnoughTrainingData_DataScarcity -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#NotEnoughTrainingData_DataScarcity">
+        <rdf:type rdf:resource="http://mlto.com#NotEnoughTrainingData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#NotEnoughTrainingData_LimitedSamples -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#NotEnoughTrainingData_LimitedSamples">
+        <rdf:type rdf:resource="http://mlto.com#NotEnoughTrainingData"/>
     </owl:NamedIndividual>
     
 
@@ -3059,6 +3163,22 @@
     
 
 
+    <!-- http://mlto.com#OverlappingOutputClassesInTrainingData_AmbiguousLabels -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#OverlappingOutputClassesInTrainingData_AmbiguousLabels">
+        <rdf:type rdf:resource="http://mlto.com#OverlappingOutputClassesInTrainingData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#OverlappingOutputClassesInTrainingData_ConflictingExamples -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#OverlappingOutputClassesInTrainingData_ConflictingExamples">
+        <rdf:type rdf:resource="http://mlto.com#OverlappingOutputClassesInTrainingData"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Personal -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Personal">
@@ -3067,10 +3187,50 @@
     
 
 
+    <!-- http://mlto.com#Personal_DeveloperSkill -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Personal_DeveloperSkill">
+        <rdf:type rdf:resource="http://mlto.com#Personal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Personal_UserExperience -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Personal_UserExperience">
+        <rdf:type rdf:resource="http://mlto.com#Personal"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Requirement -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Requirement">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Requirement_FunctionalRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Requirement_FunctionalRequirement">
+        <rdf:type rdf:resource="http://mlto.com#Requirement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Requirement_NonFunctionalRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Requirement_NonFunctionalRequirement">
+        <rdf:type rdf:resource="http://mlto.com#Requirement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Requirement_PerformanceRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Requirement_PerformanceRequirement">
+        <rdf:type rdf:resource="http://mlto.com#Requirement"/>
     </owl:NamedIndividual>
     
 
@@ -3091,6 +3251,22 @@
     
 
 
+    <!-- http://mlto.com#ResultReport_FinalPerformanceSummary -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ResultReport_FinalPerformanceSummary">
+        <rdf:type rdf:resource="http://mlto.com#ResultReport"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ResultReport_WeeklyProgress -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ResultReport_WeeklyProgress">
+        <rdf:type rdf:resource="http://mlto.com#ResultReport"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Retest -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Retest">
@@ -3099,10 +3275,50 @@
     
 
 
+    <!-- http://mlto.com#Retest_BugFixVerification -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Retest_BugFixVerification">
+        <rdf:type rdf:resource="http://mlto.com#Retest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Retest_RegressionTest -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Retest_RegressionTest">
+        <rdf:type rdf:resource="http://mlto.com#Retest"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Risk -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Risk">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Risk_DataPrivacyBreach -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Risk_DataPrivacyBreach">
+        <rdf:type rdf:resource="http://mlto.com#Risk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Risk_DeploymentFailure -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Risk_DeploymentFailure">
+        <rdf:type rdf:resource="http://mlto.com#Risk"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Risk_ModelDrift -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Risk_ModelDrift">
+        <rdf:type rdf:resource="http://mlto.com#Risk"/>
     </owl:NamedIndividual>
     
 
