@@ -1883,10 +1883,66 @@
     
 
 
+    <!-- http://mlto.com#DiscardingImportantFeature_ColorInformation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#DiscardingImportantFeature_ColorInformation">
+        <rdf:type rdf:resource="http://mlto.com#DiscardingImportantFeature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#DiscardingImportantFeature_TimeOfDay -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#DiscardingImportantFeature_TimeOfDay">
+        <rdf:type rdf:resource="http://mlto.com#DiscardingImportantFeature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#DiscardingImportantFeature_UserLocation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#DiscardingImportantFeature_UserLocation">
+        <rdf:type rdf:resource="http://mlto.com#DiscardingImportantFeature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#EvaluationMeasure -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationMeasure">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationMeasure_Accuracy -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationMeasure_Accuracy">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationMeasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationMeasure_F1Score -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationMeasure_F1Score">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationMeasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationMeasure_Precision -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationMeasure_Precision">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationMeasure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationMeasure_Recall -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationMeasure_Recall">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationMeasure"/>
     </owl:NamedIndividual>
     
 
@@ -1899,10 +1955,50 @@
     
 
 
+    <!-- http://mlto.com#EvaluationProcedure_BootstrapSampling -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationProcedure_BootstrapSampling">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationProcedure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationProcedure_CrossValidation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationProcedure_CrossValidation">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationProcedure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationProcedure_HoldoutValidation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationProcedure_HoldoutValidation">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationProcedure"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#EvaluationSpecification -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationSpecification">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationSpecification_ClassificationThreshold05 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationSpecification_ClassificationThreshold05">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationSpecification"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#EvaluationSpecification_RegressionErrorTolerance001 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#EvaluationSpecification_RegressionErrorTolerance001">
+        <rdf:type rdf:resource="http://mlto.com#EvaluationSpecification"/>
     </owl:NamedIndividual>
     
 
@@ -1915,6 +2011,30 @@
     
 
 
+    <!-- http://mlto.com#Experiment_HyperparameterTuningV1 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Experiment_HyperparameterTuningV1">
+        <rdf:type rdf:resource="http://mlto.com#Experiment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Experiment_ModelComparisonA_B -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Experiment_ModelComparisonA_B">
+        <rdf:type rdf:resource="http://mlto.com#Experiment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Experiment_NewFeatureEngineering -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Experiment_NewFeatureEngineering">
+        <rdf:type rdf:resource="http://mlto.com#Experiment"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Failure -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Failure">
@@ -1923,10 +2043,58 @@
     
 
 
+    <!-- http://mlto.com#Failure_ModelUnderperformance -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Failure_ModelUnderperformance">
+        <rdf:type rdf:resource="http://mlto.com#Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Failure_PredictionDrift -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Failure_PredictionDrift">
+        <rdf:type rdf:resource="http://mlto.com#Failure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Failure_SystemCrash -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Failure_SystemCrash">
+        <rdf:type rdf:resource="http://mlto.com#Failure"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Feature -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Feature">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Feature_PixelIntensity -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Feature_PixelIntensity">
+        <rdf:type rdf:resource="http://mlto.com#Feature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Feature_TransactionAmount -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Feature_TransactionAmount">
+        <rdf:type rdf:resource="http://mlto.com#Feature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Feature_WordEmbedding -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Feature_WordEmbedding">
+        <rdf:type rdf:resource="http://mlto.com#Feature"/>
     </owl:NamedIndividual>
     
 
@@ -1947,6 +2115,30 @@
     
 
 
+    <!-- http://mlto.com#GPUFault_KernelCrash -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPUFault_KernelCrash">
+        <rdf:type rdf:resource="http://mlto.com#GPUFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#GPUFault_MemoryLeak -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPUFault_MemoryLeak">
+        <rdf:type rdf:resource="http://mlto.com#GPUFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#GPUFault_Overheating -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPUFault_Overheating">
+        <rdf:type rdf:resource="http://mlto.com#GPUFault"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor">
@@ -1955,10 +2147,66 @@
     
 
 
+    <!-- http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor_IncorrectDevicePlacement -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor_IncorrectDevicePlacement">
+        <rdf:type rdf:resource="http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor_MixedDeviceOperation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor_MixedDeviceOperation">
+        <rdf:type rdf:resource="http://mlto.com#GPUTensorIsUsedInsteadOfCPUTensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#GPU_AMDRadeonRX6800 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPU_AMDRadeonRX6800">
+        <rdf:type rdf:resource="http://mlto.com#GPU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#GPU_NVIDIATeslaV100 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#GPU_NVIDIATeslaV100">
+        <rdf:type rdf:resource="http://mlto.com#GPU"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#Hardware -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#Hardware">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hardware_CPU -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hardware_CPU">
+        <rdf:type rdf:resource="http://mlto.com#Hardware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hardware_GPU -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hardware_GPU">
+        <rdf:type rdf:resource="http://mlto.com#Hardware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hardware_TPU -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hardware_TPU">
+        <rdf:type rdf:resource="http://mlto.com#Hardware"/>
     </owl:NamedIndividual>
     
 
@@ -1979,10 +2227,74 @@
     
 
 
+    <!-- http://mlto.com#HyperparameterFault_InsufficientEpochs -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterFault_InsufficientEpochs">
+        <rdf:type rdf:resource="http://mlto.com#HyperparameterFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#HyperparameterFault_TooHighLearningRate -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterFault_TooHighLearningRate">
+        <rdf:type rdf:resource="http://mlto.com#HyperparameterFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#HyperparameterFault_TooSmallBatchSize -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterFault_TooSmallBatchSize">
+        <rdf:type rdf:resource="http://mlto.com#HyperparameterFault"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#HyperparameterSetting -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterSetting">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#HyperparameterSetting_Epochs100_AdamOptimizer -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterSetting_Epochs100_AdamOptimizer">
+        <rdf:type rdf:resource="http://mlto.com#HyperparameterSetting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#HyperparameterSetting_LR001_BS32 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#HyperparameterSetting_LR001_BS32">
+        <rdf:type rdf:resource="http://mlto.com#HyperparameterSetting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hyperparameter_BatchSize -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hyperparameter_BatchSize">
+        <rdf:type rdf:resource="http://mlto.com#Hyperparameter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hyperparameter_LearningRate -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hyperparameter_LearningRate">
+        <rdf:type rdf:resource="http://mlto.com#Hyperparameter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Hyperparameter_NumberOfEpochs -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Hyperparameter_NumberOfEpochs">
+        <rdf:type rdf:resource="http://mlto.com#Hyperparameter"/>
     </owl:NamedIndividual>
     
 
@@ -2003,10 +2315,82 @@
     
 
 
+    <!-- http://mlto.com#ImplementationCharacteristic_HighPerformance -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationCharacteristic_HighPerformance">
+        <rdf:type rdf:resource="http://mlto.com#ImplemantationCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ImplementationCharacteristic_ModularDesign -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationCharacteristic_ModularDesign">
+        <rdf:type rdf:resource="http://mlto.com#ImplemantationCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ImplementationCharacteristic_Scalability -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationCharacteristic_Scalability">
+        <rdf:type rdf:resource="http://mlto.com#ImplemantationCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#ImplementationOfAutomaticTests -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationOfAutomaticTests">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ImplementationOfAutomaticTests_EndToEndTests -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationOfAutomaticTests_EndToEndTests">
+        <rdf:type rdf:resource="http://mlto.com#ImplementationOfAutomaticTests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ImplementationOfAutomaticTests_IntegrationTests -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationOfAutomaticTests_IntegrationTests">
+        <rdf:type rdf:resource="http://mlto.com#ImplementationOfAutomaticTests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ImplementationOfAutomaticTests_UnitTestSuite -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ImplementationOfAutomaticTests_UnitTestSuite">
+        <rdf:type rdf:resource="http://mlto.com#ImplementationOfAutomaticTests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Implementation_CPlusPlusLibrary -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Implementation_CPlusPlusLibrary">
+        <rdf:type rdf:resource="http://mlto.com#Implementation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Implementation_JavaModule -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Implementation_JavaModule">
+        <rdf:type rdf:resource="http://mlto.com#Implementation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Implementation_PythonCode -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Implementation_PythonCode">
+        <rdf:type rdf:resource="http://mlto.com#Implementation"/>
     </owl:NamedIndividual>
     
 
@@ -2019,10 +2403,42 @@
     
 
 
+    <!-- http://mlto.com#IncorrectBatchSize_BatchSizeTooLarge -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectBatchSize_BatchSizeTooLarge">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectBatchSize"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IncorrectBatchSize_BatchSizeTooSmall -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectBatchSize_BatchSizeTooSmall">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectBatchSize"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#IncorrectLearningRate -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectLearningRate">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IncorrectLearningRate_LearningRateExplosion -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectLearningRate_LearningRateExplosion">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectLearningRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IncorrectLearningRate_LearningRateStagnation -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectLearningRate_LearningRateStagnation">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectLearningRate"/>
     </owl:NamedIndividual>
     
 
