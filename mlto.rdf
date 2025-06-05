@@ -2451,10 +2451,50 @@
     
 
 
+    <!-- http://mlto.com#IncorrectNumberOfEpochs_Overfitting -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectNumberOfEpochs_Overfitting">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectNumberOfEpochs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IncorrectNumberOfEpochs_Underfitting -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IncorrectNumberOfEpochs_Underfitting">
+        <rdf:type rdf:resource="http://mlto.com#IncorrectNumberOfEpochs"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#IterationAndImproviment -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#IterationAndImproviment">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IterationAndImproviment_AdjustHyperparameters -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IterationAndImproviment_AdjustHyperparameters">
+        <rdf:type rdf:resource="http://mlto.com#IterationAndImproviment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IterationAndImproviment_ModelRetraining -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IterationAndImproviment_ModelRetraining">
+        <rdf:type rdf:resource="http://mlto.com#IterationAndImproviment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#IterationAndImproviment_RefineFeatures -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#IterationAndImproviment_RefineFeatures">
+        <rdf:type rdf:resource="http://mlto.com#IterationAndImproviment"/>
     </owl:NamedIndividual>
     
 
@@ -2467,10 +2507,42 @@
     
 
 
+    <!-- http://mlto.com#LayerFault_DropoutMisconfiguration -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayerFault_DropoutMisconfiguration">
+        <rdf:type rdf:resource="http://mlto.com#LayerFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LayerFault_NormalizationIssue -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayerFault_NormalizationIssue">
+        <rdf:type rdf:resource="http://mlto.com#LayerFault"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#LayerPropertiesFault -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#LayerPropertiesFault">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LayerPropertiesFault_IncorrectStrides -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayerPropertiesFault_IncorrectStrides">
+        <rdf:type rdf:resource="http://mlto.com#LayerPropertiesFault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LayerPropertiesFault_WrongKernelSize -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayerPropertiesFault_WrongKernelSize">
+        <rdf:type rdf:resource="http://mlto.com#LayerPropertiesFault"/>
     </owl:NamedIndividual>
     
 
@@ -2483,10 +2555,50 @@
     
 
 
+    <!-- http://mlto.com#LayersDimensionsMismatch_ConcatenationDimensionError -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayersDimensionsMismatch_ConcatenationDimensionError">
+        <rdf:type rdf:resource="http://mlto.com#LayersDimensionsMismatch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LayersDimensionsMismatch_InputOutputShapeMismatch -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LayersDimensionsMismatch_InputOutputShapeMismatch">
+        <rdf:type rdf:resource="http://mlto.com#LayersDimensionsMismatch"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#LowQualityTrainingData -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#LowQualityTrainingData">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LowQualityTrainingData_InconsistentLabels -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LowQualityTrainingData_InconsistentLabels">
+        <rdf:type rdf:resource="http://mlto.com#LowQualityTrainingData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LowQualityTrainingData_MissingAnnotations -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LowQualityTrainingData_MissingAnnotations">
+        <rdf:type rdf:resource="http://mlto.com#LowQualityTrainingData"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#LowQualityTrainingData_NoisyImages -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#LowQualityTrainingData_NoisyImages">
+        <rdf:type rdf:resource="http://mlto.com#LowQualityTrainingData"/>
     </owl:NamedIndividual>
     
 
@@ -2499,10 +2611,58 @@
     
 
 
+    <!-- http://mlto.com#Metric_AUC -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Metric_AUC">
+        <rdf:type rdf:resource="http://mlto.com#Metric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Metric_MAE -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Metric_MAE">
+        <rdf:type rdf:resource="http://mlto.com#Metric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Metric_RMSE -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Metric_RMSE">
+        <rdf:type rdf:resource="http://mlto.com#Metric"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingAPICall -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingAPICall">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingAPICall_DataNormalization -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingAPICall_DataNormalization">
+        <rdf:type rdf:resource="http://mlto.com#MissingAPICall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingAPICall_ModelSave -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingAPICall_ModelSave">
+        <rdf:type rdf:resource="http://mlto.com#MissingAPICall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingAPICall_SessionInitialization -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingAPICall_SessionInitialization">
+        <rdf:type rdf:resource="http://mlto.com#MissingAPICall"/>
     </owl:NamedIndividual>
     
 
@@ -2515,10 +2675,42 @@
     
 
 
+    <!-- http://mlto.com#MissingArgumentScoping_GlobalVariableOverride -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingArgumentScoping_GlobalVariableOverride">
+        <rdf:type rdf:resource="http://mlto.com#MissingArgumentScoping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingArgumentScoping_UnintendedVariableModification -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingArgumentScoping_UnintendedVariableModification">
+        <rdf:type rdf:resource="http://mlto.com#MissingArgumentScoping"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingAveragePoolingLayer -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingAveragePoolingLayer">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingAveragePoolingLayer_FeatureMapTooLarge -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingAveragePoolingLayer_FeatureMapTooLarge">
+        <rdf:type rdf:resource="http://mlto.com#MissingAveragePoolingLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingAveragePoolingLayer_OverfittingIssue -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingAveragePoolingLayer_OverfittingIssue">
+        <rdf:type rdf:resource="http://mlto.com#MissingAveragePoolingLayer"/>
     </owl:NamedIndividual>
     
 
@@ -2531,10 +2723,42 @@
     
 
 
+    <!-- http://mlto.com#MissingDenseLayer_InsufficientFeatureCombination -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingDenseLayer_InsufficientFeatureCombination">
+        <rdf:type rdf:resource="http://mlto.com#MissingDenseLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingDenseLayer_PoorFinalPrediction -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingDenseLayer_PoorFinalPrediction">
+        <rdf:type rdf:resource="http://mlto.com#MissingDenseLayer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingDestinationGPUDevice -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingDestinationGPUDevice">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingDestinationGPUDevice_CPUFallback -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingDestinationGPUDevice_CPUFallback">
+        <rdf:type rdf:resource="http://mlto.com#MissingDestinationGPUDevice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingDestinationGPUDevice_DeviceNotFound -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingDestinationGPUDevice_DeviceNotFound">
+        <rdf:type rdf:resource="http://mlto.com#MissingDestinationGPUDevice"/>
     </owl:NamedIndividual>
     
 
@@ -2547,10 +2771,42 @@
     
 
 
+    <!-- http://mlto.com#MissingFlattenLayer_InputShapeMismatch -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingFlattenLayer_InputShapeMismatch">
+        <rdf:type rdf:resource="http://mlto.com#MissingFlattenLayer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingFlattenLayer_NonVectorizedInput -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingFlattenLayer_NonVectorizedInput">
+        <rdf:type rdf:resource="http://mlto.com#MissingFlattenLayer"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingGlobalVariablesInitialisation -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingGlobalVariablesInitialisation">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingGlobalVariablesInitialisation_UninitializedWeights -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingGlobalVariablesInitialisation_UninitializedWeights">
+        <rdf:type rdf:resource="http://mlto.com#MissingGlobalVariablesInitialisation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingGlobalVariablesInitialisation_ZeroBias -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingGlobalVariablesInitialisation_ZeroBias">
+        <rdf:type rdf:resource="http://mlto.com#MissingGlobalVariablesInitialisation"/>
     </owl:NamedIndividual>
     
 
@@ -2563,10 +2819,42 @@
     
 
 
+    <!-- http://mlto.com#MissingRegularizationLossAndWeight_HighVariance -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingRegularizationLossAndWeight_HighVariance">
+        <rdf:type rdf:resource="http://mlto.com#MissingRegularizationLossAndWeight"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingRegularizationLossAndWeight_Overfitting -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingRegularizationLossAndWeight_Overfitting">
+        <rdf:type rdf:resource="http://mlto.com#MissingRegularizationLossAndWeight"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingSoftmaxActivationFunction -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingSoftmaxActivationFunction">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingSoftmaxActivationFunction_IncorrectClassification -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingSoftmaxActivationFunction_IncorrectClassification">
+        <rdf:type rdf:resource="http://mlto.com#MissingSoftmaxActivationFunction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingSoftmaxActivationFunction_NonProbabilisticOutput -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingSoftmaxActivationFunction_NonProbabilisticOutput">
+        <rdf:type rdf:resource="http://mlto.com#MissingSoftmaxActivationFunction"/>
     </owl:NamedIndividual>
     
 
@@ -2579,10 +2867,42 @@
     
 
 
+    <!-- http://mlto.com#MissingSqueeze_DimensionMismatch -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingSqueeze_DimensionMismatch">
+        <rdf:type rdf:resource="http://mlto.com#MissingSqueeze"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingSqueeze_SingleDimensionError -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingSqueeze_SingleDimensionError">
+        <rdf:type rdf:resource="http://mlto.com#MissingSqueeze"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#MissingTransferOfDataToGPU -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#MissingTransferOfDataToGPU">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingTransferOfDataToGPU_CPUProcessing -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingTransferOfDataToGPU_CPUProcessing">
+        <rdf:type rdf:resource="http://mlto.com#MissingTransferOfDataToGPU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#MissingTransferOfDataToGPU_SlowTraining -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#MissingTransferOfDataToGPU_SlowTraining">
+        <rdf:type rdf:resource="http://mlto.com#MissingTransferOfDataToGPU"/>
     </owl:NamedIndividual>
     
 
@@ -2603,10 +2923,58 @@
     
 
 
+    <!-- http://mlto.com#ModelCharacteristic_Complexity -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelCharacteristic_Complexity">
+        <rdf:type rdf:resource="http://mlto.com#ModelCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelCharacteristic_Interpretability -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelCharacteristic_Interpretability">
+        <rdf:type rdf:resource="http://mlto.com#ModelCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelCharacteristic_Robustness -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelCharacteristic_Robustness">
+        <rdf:type rdf:resource="http://mlto.com#ModelCharacteristic"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mlto.com#ModelEvaluation -->
 
     <owl:NamedIndividual rdf:about="http://mlto.com#ModelEvaluation">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#Kind"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelEvaluation_A_BTest -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelEvaluation_A_BTest">
+        <rdf:type rdf:resource="http://mlto.com#ModelEvaluation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelEvaluation_InitialPerformanceTest -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelEvaluation_InitialPerformanceTest">
+        <rdf:type rdf:resource="http://mlto.com#ModelEvaluation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#ModelEvaluation_ProductionMonitoring -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#ModelEvaluation_ProductionMonitoring">
+        <rdf:type rdf:resource="http://mlto.com#ModelEvaluation"/>
     </owl:NamedIndividual>
     
 
@@ -2639,6 +3007,30 @@
 
     <owl:NamedIndividual rdf:about="http://mlto.com#ModelUpdate">
         <rdf:type rdf:resource="http://purl.org/nemo/gufo#EventType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Model_BERT -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Model_BERT">
+        <rdf:type rdf:resource="http://mlto.com#Model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Model_LogisticRegression -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Model_LogisticRegression">
+        <rdf:type rdf:resource="http://mlto.com#Model"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mlto.com#Model_ResNet50 -->
+
+    <owl:NamedIndividual rdf:about="http://mlto.com#Model_ResNet50">
+        <rdf:type rdf:resource="http://mlto.com#Model"/>
     </owl:NamedIndividual>
     
 
